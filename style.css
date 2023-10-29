@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+  font-size: 30px;
+  line-height: 33px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-seri;
+
+}
+
+body {
+background-color: palegreen;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.style
+{
+    color : black;
+}
+ 
+.style:hover
+{
+    color : white;
+}
+
+a {
+  color: #000; /* Couleur du texte */
+  text-decoration: none; /* Supprime le soulignement par défaut */
+  transition: color 0.3s; /* Ajoute une transition fluide lors du survol */
+  font-family: 'Knewave';
+}
+
+/* Styles lors du survol de la souris */
+a:hover {
+  color: #ff0000; /* Couleur du texte au survol */
+}
+
+/* Styles pour les liens visités */
+a:visited {
+  color: #800080; /* Couleur du texte pour les liens visités */
+}
+
+/* Styles pour les liens actifs (lorsqu'ils sont cliqués) */
+a:active {
+  color: #0000ff; /* Couleur du texte pour les liens actifs */
+
+  
+  

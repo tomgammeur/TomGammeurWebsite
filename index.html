@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Tom Gammeur</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="tomg.jpg">
+      <style>
+    /* Ajoutez vos styles CSS personnalisés ici */
+    .animation {
+      opacity: 0;
+      transform: translateY(100px);
+      transition: opacity 1s, transform 1s;
+    }
+
+    .animation.animate {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+  <script>
+    window.addEventListener('load', function() {
+      var element = document.querySelector('.animation');
+      element.classList.add('animate');
+            var audio = new Audio('fantasy_ui_button_6-102219.mp3');
+      audio.play();
+    });
+  </script>
+      <style>
+    /* Styling pour la notification */
+    .notification {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      padding: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      z-index: 9999;
+      display: none;
+    }
+  </style>
+  <script>
+    // Fonction pour afficher la notification après une minute
+    function afficherNotification() {
+      setTimeout(function() {
+        var notification = document.getElementById('notification');
+        notification.style.display = 'block';
+      }, 60000); // 60000 millisecondes = 1 minute
+    }
+
+    // Fonction pour cacher la notification
+    function cacherNotification() {
+      var notification = document.getElementById('notification');
+      notification.style.display = 'none';
+    }
+  </script>
+        <style>
+      .button {
+        display: inline-block;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #7aa8b7;
+        border-radius: 6px;
+        outline: none;
+        transition: 0.3s;
+      }
+      .button:hover {
+        background-color: #c2c7c7;
+      }
+    </style>
+  </head>
+<body onload="afficherNotification()">
+    <div style="background-image:url('Design sans titre (1).png');">
+
+      <div class="animation">
+    <img src="tomg.jpg"
+     alt="Logo de Tom Gammeur (si vous ne voyez pas le logo, assurez vous d'avoir une bonne connexion internet)"
+     width="100"
+     height="100">
+      </div>
+    <div id="notification" class="notification">
+    <p>Aimez-vous l'apparence du site ?</p>
+    <button onclick="cacherNotification()">Oui</button>
+    <button onclick="cacherNotification()">Non</button>
+  </div>
+   <h1 class="style"> Tom Gammeur</h1>
+           <script src="script.js"></script>
+    <a class="button" title="Tom Gammeur Replay" href="twitch.html">Acceder au replay</a>
+    <a class="button" title="M'envoyer un message (ca va pas marcher lol)" href="formulaire.html">Contact</a>
+   <blockquote>
+      <h1>Diffusion en direct</h1>
+   </blockquote>
+   <a href="https://twitch.tv/tomgammeur">Voir mon Twitch</a>
+<!-- Add a placeholder for the Twitch embed -->
+<div id="twitch-embed"></div>
+
+<!-- Load the Twitch embed script -->
+<script src="https://player.twitch.tv/js/embed/v1.js"></script>
+
+<!-- Create a Twitch.Player object. This will render within the placeholder div -->
+<script type="text/javascript">
+  new Twitch.Player("twitch-embed", {
+    channel: "tomgammeur"
+  });
+</script>
+        <script type="text/javascript" id="cookiebanner" src="https://cdnjs.cloudflare.com/ajax/libs/cookie-banner/1.0.0/cookiebanner.min.js" data-position="top" data-fg="#ffffff" data-bg="#3c546b" data-link="#99011e" data-moreinfo="https://tom-gammeur.tomgammeur.repl.co/aide.html" data-message="Ce site est affilié à TomG. " data-linkmsg="En savoir plus"></script>
+    <blockquote> 
+                  <div style="background-image:url('Design\ sans\ titre\ \(2\).png');">
+
+      <h1>Dernieres vidéos</h1>
+                  </div>
+    </blockquote>
+          <style>
+        .ligne-videos {
+            display: flex;
+            overflow-x: hidden;
+            width: 100%;
+        }
+
+        .video {
+            width: 560px;
+            height: 315px;
+            margin-right: 20px;
+        }
+    </style>
+          <div class="ligne-videos" id="videos-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/m_X8ogPymEw?si=yZnzYl_yL4wkCH5D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4PS2iFeM0FI?si=T6vSXFL52UzBSlXT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/crnI-h8ukpc?si=-P_8tV1TnnL4Rh6-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/VGsf1jrye3o?si=DgULhIu7aGIls9Qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/YOvffPrVDIE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/SNsyIC_cVpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ar9fKxmVgQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/MIsbNhkqBQs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+      
+    <button onclick="scrollVideos(-1)">Précédent</button>
+    <button onclick="scrollVideos(1)">Suivant</button>
+        <script>
+        const videosContainer = document.getElementById("videos-container");
+
+        function scrollVideos(direction) {
+            const scrollAmount = 600; // Ajustez la quantité de défilement selon votre préférence
+            videosContainer.scrollLeft += scrollAmount * direction;
+        }
+    </script>
+    <blockquote>
+                  <div style="background-image:url('Design\ sans\ titre\ \(2\).png');">
+
+  <h1>Plus de séries</h1>
+                  </div>
+</blockquote>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLGMTjYHtvHZ2WnqgCPkt_Yud_qYhS0DOT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLGMTjYHtvHZ0abnCPeQmE9ep6jxzZ46kL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLGMTjYHtvHZ0JJFMprfMInFngh2lSwmy4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<blockquote>
+  <h1>Shorts</h1>
+</blockquote>
+    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@tomgammeuryt/video/7216975162594331909" data-video-id="7216975162594331909" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@tomgammeuryt" href="https://www.tiktok.com/@tomgammeuryt?refer=embed">@tomgammeuryt</a> relou ca 😭 <a title="minecraft" target="_blank" href="https://www.tiktok.com/tag/minecraft?refer=embed">#minecraft</a> <a title="pourtoi" target="_blank" href="https://www.tiktok.com/tag/pourtoi?refer=embed">#pourtoi</a> <a title="capcut" target="_blank" href="https://www.tiktok.com/tag/capcut?refer=embed">#CapCut</a> <a title="tomgammeur" target="_blank" href="https://www.tiktok.com/tag/tomgammeur?refer=embed">#tomgammeur</a> <a title="tiktok" target="_blank" href="https://www.tiktok.com/tag/tiktok?refer=embed">#tiktok</a> <a target="_blank" title="♬ son original - CatFelizNavidad" href="https://www.tiktok.com/music/son-original-7207492068409674501?refer=embed">♬ son original - CatFelizNavidad</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@tomgammeuryt/video/7188606844758150405" data-video-id="7188606844758150405" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@tomgammeuryt" href="https://www.tiktok.com/@tomgammeuryt?refer=embed">@tomgammeuryt</a> j&#39;assume avoir triché dans une  vieille vidéo <a title="minecraft" target="_blank" href="https://www.tiktok.com/tag/minecraft?refer=embed">#minecraft</a> <a title="tomgammeur" target="_blank" href="https://www.tiktok.com/tag/tomgammeur?refer=embed">#tomgammeur</a> <a title="tiktok" target="_blank" href="https://www.tiktok.com/tag/tiktok?refer=embed">#tiktok</a> <a title="capcut" target="_blank" href="https://www.tiktok.com/tag/capcut?refer=embed">#CapCut</a> <a title="foryou" target="_blank" href="https://www.tiktok.com/tag/foryou?refer=embed">#foryou</a> <a title="pourtoi" target="_blank" href="https://www.tiktok.com/tag/pourtoi?refer=embed">#pourtoi</a> <a target="_blank" title="♬ son original - TomG™" href="https://www.tiktok.com/music/son-original-7188606852531636997?refer=embed">♬ son original - TomG™</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@tomgammeuryt/video/7142832085311540486" data-video-id="7142832085311540486" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@tomgammeuryt" href="https://www.tiktok.com/@tomgammeuryt?refer=embed">@tomgammeuryt</a> BEST OF ZEVENT <a title="tomgammeur" target="_blank" href="https://www.tiktok.com/tag/tomgammeur?refer=embed">#tomgammeur</a> <a title="pourtoi" target="_blank" href="https://www.tiktok.com/tag/pourtoi?refer=embed">#pourtoi</a> <a title="zevent" target="_blank" href="https://www.tiktok.com/tag/zevent?refer=embed">#zevent</a> <a target="_blank" title="♬ Radio Rota - Official Sound Studio" href="https://www.tiktok.com/music/Radio-Rota-6764323559209699329?refer=embed">♬ Radio Rota - Official Sound Studio</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+    
+ <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@tomgammeuryt/video/7135436507552189702" data-video-id="7135436507552189702" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@tomgammeuryt" href="https://www.tiktok.com/@tomgammeuryt?refer=embed">@tomgammeuryt</a> <a title="minecraft" target="_blank" href="https://www.tiktok.com/tag/minecraft?refer=embed"></a><a title="tomgammeur" target="_blank" href="https://www.tiktok.com/tag/tomgammeur?refer=embed"></a><a title="rickroll" target="_blank" href="https://www.tiktok.com/tag/rickroll?refer=embed"></a><a title="foryou" target="_blank" href="https://www.tiktok.com/tag/foryou?refer=embed"></a><a title="khabylame" target="_blank" href="https://www.tiktok.com/tag/khabylame?refer=embed"></a> <a target="_blank" title="♬ RI" href="https://www.tiktok.com/music/Never-Gonna-Give-You-Up-6750650399448893441?refer=embed">♬ RICKROLL</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+
+<h2>Newsletter</h2>
+      
+    <form class="js-cm-form" id="subForm" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="5B5E7037DA78A748374AD499497E309E95AC57E3910E7C815A22E5615663239C0E98CA3371E63B21A121A2607AEBF373E444157CD2FB6DFBF3CCDAA3E2C8D4A8">
+      <input autocomplete="Email" placeholder="Your email…" aria-label="Email" class="js-cm-email-input qa-input-email" id="fieldEmail" maxlength="200" name="cm-bbdlil-bbdlil" required="" type="email">
+      <button type="submit">Subscribe</button>
+    </form>
+  <blockquote>
+  </blockquote>
+    <a href="https://pendugame.tomgammeur.repl.co/">
+        <img src="Capture.PNG" alt="Description de l'image">
+    </a>
+<p>@2023 Tom Gammeur</p>
+   <a href="https://www.canva.com/design/DAERin6jnKY/hvqYnBoTj94BoqeWZpZD3w/view?website#2">Aller sur le site sur Canva</a>
+  </body>
+</html>

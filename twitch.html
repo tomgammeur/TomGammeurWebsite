@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Tom Gammeur Replay</title>
+    <link href="styletomgtv.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="tomgtv.jpg">
+              <style>
+      .button {
+        display: inline-block;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #7aa8b7;
+        border-radius: 6px;
+        outline: none;
+        transition: 0.3s;
+      }
+      .button:hover {
+        background-color: #c2c7c7;
+      }
+    </style>
+  </head>
+<body>
+  <div style="background-image:url('Design sans titre (2).png');">
+  <nav class="crumbs">
+    <ol>
+        <li class="crumb"><a href="index.html">Acceuil</a></li>
+        <li class="crumb">Replay</li>
+    </ol>
+</nav>
+
+      <img src="tomgtv.jpg"
+     alt="Logo de Tom Gammeur (si vous ne voyez pas le logo, assurez vous d'avoir une bonne connexion internet)"
+     width="100"
+     height="100">
+    <blockquote>
+    </blockquote>
+<a class="button" href="https://twitch.tv/tomgammeur">Voir mon Twitch</a>
+<a class="button" href="https://kick.com/tomgammeur">Voir mon Kick</a>
+<blockquote>
+</blockquote>
+<a class="button" href="index.html" title="Acceuil">Retourner a l'acceuil</a>
+
+<p>Voir la derniere vidéo</p>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/OY28wlS3aj4?si=hyZ9Ds4zT_PrsaXK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <style>
+        .ligne-videos {
+            display: flex;
+            overflow-x: hidden;
+            width: 100%;
+        }
+
+        .video {
+            width: 560px;
+            height: 315px;
+            margin-right: 20px;
+        }
+    </style>
+<p> Autres épisodes</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/1wIPuk_x1BA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+     <div class="ligne-videos" id="videos-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Da7KOz-lK_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-cEA7_QShrk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FyO-hH0hbwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+           </div>
+    <button onclick="scrollVideos(-1)">Précédent</button>
+    <button onclick="scrollVideos(1)">Suivant</button>
+
+    <script>
+        const videosContainer = document.getElementById("videos-container");
+
+        function scrollVideos(direction) {
+            const scrollAmount = 600; // Ajustez la quantité de défilement selon votre préférence
+            videosContainer.scrollLeft += scrollAmount * direction;
+        }
+    </script>
+</body>
+</html>

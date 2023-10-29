@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Contact - Tom Gammeur</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="tomg.jpg">
+        <style>
+      .button {
+        display: inline-block;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #7aa8b7;
+        border-radius: 6px;
+        outline: none;
+        transition: 0.3s;
+      }
+      .button:hover {
+        background-color: #c2c7c7;
+      }
+    </style>
+          <style>
+    /* Ajoutez vos styles CSS personnalisés ici */
+    .animation {
+      opacity: 0;
+      transform: translateY(100px);
+      transition: opacity 1s, transform 1s;
+    }
+
+    .animation.animate {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+  <script>
+    window.addEventListener('load', function() {
+      var element = document.querySelector('.animation');
+      element.classList.add('animate');
+            var audio = new Audio('fantasy_ui_button_6-102219.mp3');
+      audio.play();
+    });
+  </script>
+  </head>
+  <body>
+    <p>D'abord, inserez vos coordonées !</p>
+    <form method="post" action="traitement.php">
+        <div style="background-image:url('Design sans titre (1).png');">
+       <div class="animation">
+   <fieldset>
+       <legend>Vos coordonnées</legend> <!-- Titre du fieldset --> 
+
+       <label for="nom">Quel est votre nom ?</label>
+       <input type="text" name="nom" id="nom" />
+
+       <label for="prenom">Quel est votre prénom ?</label>
+       <input type="text" name="prenom" id="prenom" />
+ 
+       <label for="email">Quel est votre e-mail ?</label>
+       <input type="email" name="email" id="email" />
+
+   </fieldset>
+ 
+   <fieldset>
+       <legend>Votre souhait</legend> <!-- Titre du fieldset -->
+ 
+       <p>
+           Pourquoi nous contacter ? :
+
+           <input type="radio" name="souhait" value="ameliore" id="ameliore" /> <label for="ameliore">Améliorer le site</label>
+           <input type="radio" name="souhait" value="propos" id="propos" /> <label for="propos">A propos de YouTube/Twitch</label>
+           <input type="radio" name="souhait" value="jouer" id="jouer" /> <label for="jouer">Pour <strong>jouer</strong> avec moi</label>
+           <input type="radio" name="souhait" value="autre" id="autre" /> <label for="autre">Autre...</label>
+       </p>
+ 
+       <p>
+           <label for="precisions">Si "Autre", veuillez préciser :</label>
+           <textarea name="precisions" id="precisions" cols="40" rows="4"></textarea>
+       </p>
+   </fieldset>
+
+   <p>
+       <label for="ameliorer">
+       Votre message !
+       </label>
+       <br />
+       
+       <textarea name="ameliorer" id="ameliorer" rows="10" cols="50">
+       Inserer un texte...
+       </textarea>       
+       <p>Clique sur envoyer</p>
+      <input type="submit" value="Envoyer" />
+   </p>
+       </form>
+
+<p>Nous examinerons votre message et nous vous répondrons que possible ;) </p>
+  </div>
+<a class="button" href="index.html" title="Acceuil">Retourner a l'acceuil</a>
+  </body>
+</html>
