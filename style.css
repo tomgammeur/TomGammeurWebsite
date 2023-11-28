@@ -43,4 +43,11 @@ a:active {
   color: #0000ff; /* Couleur du texte pour les liens actifs */
 
   
+  marquee {
+    color: #ca0005; /* Couleur du texte */
+    text-decoration: none; /* Supprime le soulignement par défaut */
+    font-family: 'Knewave';
+  }
+
+  
   
