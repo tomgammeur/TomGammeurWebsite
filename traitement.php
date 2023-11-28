@@ -37,4 +37,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Si le formulaire n'est pas soumis, redirigez vers la page du formulaire
     header("Location: formulaire.html");
 }
+
+   //Si un probleme persiste , afficher "Erreur 12".
 ?>
+
+    
+
