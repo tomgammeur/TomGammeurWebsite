@@ -6,6 +6,15 @@ C'est un site que j'ai fait en utilisant le __HTML, JS, CSS__
 
 <strong>Disponible des maintenant</strong>
 
+<h4>Fonctionnalités disponibles</h4>
+<ul>
+<li>Acceuil du site</li>
+<li>Acceder au Replay</li>
+<li>Feed</li>
+<li>Moyen de contact</li>
+</ul>
+<blockquote>
+</blockquote>
 <h4> Utilisations : </h4>
 <blockquote>
 </blockquote>
